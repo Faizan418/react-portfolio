@@ -2,8 +2,7 @@
 
 /* @tailwind base;
 @tailwind components; */
-@tailwind utilities;
-
+/* @tailwind utilities; */
 :root {
     --primary-color: #4FC6CE;
     --accent-01: #DBDBDB;
@@ -32,7 +31,7 @@
   .divider {
     height: 2px;
     width: 100%;
-    margin: 10px 0;
+    margin: 8px 0;
   }
   
   .ltr {
@@ -45,10 +44,13 @@
   
   /* Responsive adjustments */
   @media (max-width: 640px) {
-    .divider {
-      margin: 8px 0;
-    }
     body {
-      font-size: 16px;
+      font-size: 14px;
+    }
+    .divider {
+      margin: 6px 0;
+    }
+    .container {
+      padding: 0.5rem;
     }
   }

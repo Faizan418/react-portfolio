@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@ionic/react": "^8.5.6",
+    "@mariohamann/activity-graph": "^1.0.5",
     "@tailwindcss/vite": "^4.1.5",
     "aos": "^2.3.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
+    "react-github-contribution-calendar": "^2.2.0",
     "tailwindcss": "^4.1.5",
     "typed.js": "^2.1.0"
   },
